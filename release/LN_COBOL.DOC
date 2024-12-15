@@ -1,0 +1,42 @@
+             NUMERATEUR DE FICHIERS SOURCES EN COBOL.
+
+   Ce programme permet d'ins‚rer … gauche de chaque ligne en Cobol 
+(avant la colonne 7, donc pas pris en compte par les  compilateurs 
+respectant les normes du Cobol) le num‚ro associ‚ … la ligne.
+
+   Il suffit de pr‚ciser au programme le nom du fichier  que  vous 
+voulez num‚roter, et le programme se d‚brouille tout seul.
+
+******************************************************************
+   LN_COBOL 1.0: (01/01/1991)
+
+* Ce programme num‚rote les fichiers d'extension .COB, il coupe le 
+source avant la colonne 7, et aprŠs la colonne 72, il faut donc ne 
+rien avoir ‚crit dans ces limites.
+
+* Les num‚ros de lignes se mettent en colonne 1, et  ne  d‚passent 
+pas (je l'espŠre car cela voudrait dire que vous avez  un  listing 
+de 999999 + 1 lignes) la colonne 7.
+
+******************************************************************
+   LN_COBOL 1.1: (19/01/1991)
+
+*  Mˆme  chose  que  la  version  1.0,  le  seul  changement   est 
+l'extension des fichiers modifi‚s: le .COB  est  devenu  .CBL  car 
+j'ai eu … utiliser un compilateur n'utilisant que cette extension.
+
+* Attention, c'est la seule extension  utilisable,  car  elle  est 
+mise par le programme quoiqu'il arrive. Je ne pense  pas  qu'il  y 
+ait de bugs, en tout cas, je n'en ai pas trouv‚ !
+
+******************************************************************
+Vous pouvez me contacter pour me donner des id‚es de programmes et 
+utilitaires,  mais  aussi  pour  m'indiquer  les  bugs  que   vous 
+trouverez dans mes programmes … l'adresse suivante (ou en personne 
+si vous me connaissez !):
+
+(maj du 14/12/2024 : adresse postale de l'epoque retiree du fichier, me contacter depuis https://developpeur-pascal.fr ou https://olfsoftware.fr pour toute question)
+				 
+******************************************************************
+
+Mise … jour de cette documentation le 24/06/1992.
